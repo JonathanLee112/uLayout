@@ -34,7 +34,7 @@
 
 ## 🚀 News
 - [2025/03/27] Paper released on arXiv.
-- Code will release soon in April 2025.
+- The code will be released soon.
 
 ## 📝 Citation
 If you find our work useful in your research, please consider citing:
