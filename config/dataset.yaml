@@ -1,0 +1,17 @@
+# hydra configuration
+# Dataset configuration
+# pano dataset
+mp3d:
+  data_dir: /media/public_dataset/360Layout/mp3d
+  
+pano:
+  data_dir: src/pano/pano_st2d3d
+
+st2d3d:
+  data_dir: src/pano/pano_st2d3d
+
+# pp dataset
+lsun: 
+  data_dir: src/pp/lsun_align
+  fix_shape: [256, 256]
+  out_bound_val : 75 # the seting boundary value(in angle) for the black region for the perspective image

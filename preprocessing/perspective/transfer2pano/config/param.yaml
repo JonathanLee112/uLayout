@@ -1,0 +1,7 @@
+
+param:
+  pp_shape: [256, 256]
+  pano_shape: [512, 1024]
+  out_bound_val: 75 # angle degree
+  pano_rotate_angle: 30 # angle degree
+  cuda_device: 0

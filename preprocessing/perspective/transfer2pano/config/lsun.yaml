@@ -1,0 +1,7 @@
+
+lsun:
+  data_dir: "src/pp/lsun_align"
+  mode: "train"
+  scene_list_dir: ${lsun.data_dir}/${lsun.mode}/${lsun.mode}_scene_list.json
+  img_dir: ${lsun.data_dir}/${lsun.mode}/img_aligned
+  gt_dir: ${lsun.data_dir}/${lsun.mode}/cor_aligned

@@ -1,0 +1,7 @@
+param:
+  shape: [512, 512]
+  quant : 0.3
+  skip_pad : 10
+  vp_thres : 5
+  deg_thres : 45
+  ransac_it : 3000

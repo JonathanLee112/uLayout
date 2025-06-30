@@ -1,0 +1,9 @@
+# default configuration for hydra
+defaults:
+  - lsun
+  - param
+  - _self_
+
+output_dir : output/pp_align
+vis : false
+save_pd : false

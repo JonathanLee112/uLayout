@@ -1,0 +1,7 @@
+
+lsun:
+  data_dir: "src/pp/lsun_ori"
+  data_mode: "training" # trainging or validation
+  img_dir: ${lsun.data_dir}/images_640x640
+  label_path: ${lsun.data_dir}/${lsun.data_mode}_640x640.npz
+  img_shape: [640, 640]

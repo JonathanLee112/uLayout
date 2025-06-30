@@ -1,0 +1,14 @@
+numpy==1.26.4
+hydra
+loguru
+torch==2.2.0
+opencv-python
+shapely
+matplotlib
+imageio
+scipy
+einops
+tensorboard
+pylsd
+open3d
+scikit-image

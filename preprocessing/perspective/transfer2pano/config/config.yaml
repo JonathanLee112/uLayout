@@ -1,0 +1,6 @@
+defaults:
+  - lsun
+  - param
+  - _self_
+
+out_dir: output/pp_align

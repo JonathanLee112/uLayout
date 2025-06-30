@@ -1,0 +1,15 @@
+# default configuration for hydra
+defaults:
+  - dataset.yaml
+  - model.yaml
+  - _self_
+
+pano_dataset: mp3d
+pp_dataset: lsun
+mode : test
+output_dir : output
+ckpt_dir : ckpt/best_mp3d.pth
+cuda_device : 0
+vis : false
+save_pred : false
+id_exp : "ulayout_mp3d_lsun_val"
