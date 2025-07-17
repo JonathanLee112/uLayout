@@ -1,5 +1,5 @@
 numpy==1.26.4
-hydra
+hydra-core
 loguru
 torch==2.2.0
 opencv-python
